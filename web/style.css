@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Press Start 2P', monospace;
+    background-color: #0d0c1b;
+    color: #eee;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.main-container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 15%;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #a14fff;
+    text-shadow: 0 0 5px #a14fff;
+    margin-bottom: 20px;
+}
+
+.sub {
+    color: #ff59d1;
+    font-size: 0.7em;
+    margin-bottom: 30px;
+}
+
+.login-box {
+    background: rgba(17, 17, 17, 0.9);
+    padding: 25px;
+    border: 2px solid #a14fff;
+    box-shadow: 0 0 10px #a14fff;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #111;
+    color: #00ffee;
+    border: 2px solid #00ffee;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #a14fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff59d1;
+    color: #fff;
+}
+
+.hint {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #888;
+}
+.flag-container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.flag-title {
+    color: #ff59d1;
+    font-size: 1.2em;
+    text-shadow: 0 0 10px #ff59d1;
+    margin-bottom: 20px;
+}
+
+.flag-message {
+    color: #00ffee;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+.flag-box {
+    background-color: #111;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #00ffee;
+    color: #00ffee;
+    font-size: 1em;
+    box-shadow: 0 0 20px #00ffee;
+    border-radius: 8px;
+}
+
+.small-hint {
+    margin-top: 30px;
+    font-size: 10px;
+    color: #888;
+    font-style: italic;
+}
